@@ -21,6 +21,11 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o docs"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talkyjs/react-apl.git"
+  },
+  "homepage": "https://talkyjs.github.io/react-apl",
   "peerDependencies": {
     "react": ">=16"
   },
@@ -41,11 +46,11 @@
   "size-limit": [
     {
       "path": "dist/react-apl.cjs.production.min.js",
-      "limit": "10 KB"
+      "limit": "20 KB"
     },
     {
       "path": "dist/react-apl.esm.js",
-      "limit": "10 KB"
+      "limit": "20 KB"
     }
   ],
   "devDependencies": {
