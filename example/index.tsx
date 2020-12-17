@@ -31,7 +31,17 @@ const App = () => {
   return (
     <div>
       <pre><code>{JSON.stringify(apl,null,2)}</code></pre>
-      <APLViewer aplDocument={apl} viewerElementId="test" />
+      <APLViewer
+        aplDocument={apl}
+        viewerElementId="test"
+        options={{
+          viewport: {
+            width: 640,
+            height: 640,
+            dpi: 96
+          }
+        }}
+        />
     </div>
   );
 };
